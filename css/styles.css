@@ -1,0 +1,63 @@
+:root {
+    --primaryFont: 'Antic Slab', serif;
+  --secondaryFont: 'Open Sans', sans-serif;
+}
+
+/*Font Styling with Google Fonts
+  font-family: 'Antic Slab', serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+/* GLOBAL STYLING */
+body {
+  font-family: var(--primaryFont);
+  background-color: plum;
+}
+.nav-item {
+  font-size: xx-large;
+}
+
+.fab {
+  font-size: 100px;
+}
+
+.jumbotron {
+    background-color: silver;
+  }
+  
+  a {
+    color: black;
+  }
+
+.profile {
+  width: 100px;
+  height: 100px;
+}
+
+  .parallax {
+    /* The image used */
+    background-image: url("../img/pexels-miriam-espacio-110854.jpg");
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+    .carousel-inner {
+      width: 500px;
+
+  }
+  .carousel, .slide {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .btn, .btn-link, .btn-block {
+    font-size: xx-large;
+  }
+  
